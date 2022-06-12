@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<h1>CV cá nhân</h1>
+<head>
+    <meta charset="UTF-8">
+    <title>CV Cá NHân</title>
+</head>
+<body>
+<ul>
+    <li>Họ và tên:Lê Quang Tèo</li>
+    <li>Địa Chỉ:133/Nguyễn Tất THành</li>
+    <li>Số điện thoại:0123456789</li>
+    <li><a>Email:lequangteo@gmail.com</a></li>
+    <li>Ảnh<img src="https://www.kasandbox.org/programming-images/misc/tim-berners-lee-webpage.png" width="300""</li>
+    <li>Học vấn:đại học quốc gia Hà Nội</li>
+    <li>Bằng cấp:Thạc sĩ cầu lông</li>
+    <li>kỹ năng:đá cầu</li>
+    <li>Kinh nghiệm: 20 năm</li>
+    <li>Định hướng phát triển cá nhân:Tiến sĩ cầu lông</li>
+</ul>
+</body>
+</html>
