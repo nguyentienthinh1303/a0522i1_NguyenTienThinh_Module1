@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính điểm trung bình</title>
+</head>
+<body>
+<script>
+let toan = parseInt(prompt('nhập điểm toán'))
+let hoa = parseInt(prompt('nhập điểm hóa'))
+let sinh = parseInt(prompt('nhập điểm sinh'))
+let tb = (toan+hoa+sinh)/3
+    alert(tb)
+</script>
+</body>
+</html>
