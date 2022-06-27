@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MÁY TÍNH</title>
+</head>
+<body>
+<fieldset style="border: 2px solid rgb(0,0,0);border-radius: 6px;width: 300px ;background-color: rgba(0,0,0,0.19);margin: auto" ; >
+    <table border='1' width='300' cellspacing='2' cellpadding='3'>
+        <tr >
+            <td colspan="4"><input type="text" id="input_number" style="width: 300px;height: 60px;border: 3px solid rgb(211,211,211);border-radius: 4px;font-size: 20px"></td>
+        </tr>
+        <tr>
+            <td><p><input type = "button" value="      1      " onclick="getNumber('1')"></p></td>
+            <td><p><input type = "button" value="      2      " onclick="getNumber('2')"></p></td>
+            <td><p><input type = "button" value="      3      " onclick="getNumber('3')"></p></td>
+            <td><p><input type = "button" value="      +      " onclick="getNumber('+')"></p></td>
+        </tr>
+        <tr>
+            <td><p><input type = "button" value="      4      " onclick="getNumber('4')"></p></td>
+            <td><p><input type = "button" value="      5      " onclick="getNumber('5')"></p></td>
+            <td><p><input type = "button" value="      6      " onclick="getNumber('6')"></p></td>
+            <td><p><input type = "button" value="      -      " onclick="getNumber('-')"></p></td>
+        </tr>
+        <tr>
+            <td><p><input type = "button" value="      7      " onclick="getNumber('7')"></p></td>
+            <td><p><input type = "button" value="      8      " onclick="getNumber('8')"></p></td>
+            <td><p><input type = "button" value="      9      " onclick="getNumber('9')"></p></td>
+            <td><p><input type = "button" value="      x      " onclick="getNumber('*')"></p></td>
+        </tr>
+        <tr>
+            <td><p><input type = "button" value="      C      " onclick="Clear()"></p></td>
+            <td><p><input type = "button" value="      0      " onclick="getNumber('0')"></p></td>
+            <td><p><input type = "button" value="      =      " onclick="slove()"></p></td>
+            <td><p><input type = "button" value="      /      " onclick="getNumber('/')"></p></td>
+        </tr>
+    </>
+</fieldset>
+<style>
+    .number{
+
+        width: 70px;
+        height: 70px;
+        color: darkgrey;
+        background-color: white;
+        font-size: 25px;
+        font-weight: 800;
+        margin: 10px 10px 10px 10px;
+        border: 2px solid #ff0000;
+        border-radius: 3px;
+    }
+
+</style>
+<script>
+    function getNumber(number) {
+
+        let inputNumber = document.getElementById("input_number");
+        inputNumber.value += number;
+
+    }
+    function slove() {
+        let x = document.getElementById("input_number").value;
+        document.getElementById("input_number").value = eval(x);
+
+    }
+    function Clear() {
+        document.getElementById("input_number").value ="";
+    }
+
+</script>
+</body>
+</html>
