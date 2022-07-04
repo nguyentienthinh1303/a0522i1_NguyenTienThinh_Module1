@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>if 0102</title>
+</head>
+<body>
+<p>Nhập tuổi</p>
+<input type = "text" id="a" size="15"/>
+<button onclick="convert()">hiển thị</button>
+<p id="x"></p>
+<script>
+    function convert() {
+        let a = document.getElementById('a').value;
+        if ( a >= 15){
+            document.write("Bạn đủ điều kiện vào học lớp 10");
+        }
+        else {
+            document.write("Bạn không đủ điều kiện vào học lớp 10");
+        }
+        document.getElementById("x").innerHTML = x
+    }
+</script>
+</body>
+</html>
