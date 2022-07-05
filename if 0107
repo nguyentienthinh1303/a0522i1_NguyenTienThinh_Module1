@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>if 0107</title>
+</head>
+<body>
+<script>
+    let thoigian=parseInt(prompt("Nhập số phút đã sử dụng"));
+    let tongtien;
+    if (thoigian <=200){
+        tongtien=thoigian*1100;
+        document.write("Số tiền bạn phải trả là : " +tongtien+ "ngàn đồng");
+    } else if (thoigian <= 400){
+        tongtien=thoigian*1300;
+        document.write("Số tiền bạn phải trả là : " +tongtien+ "ngàn đồng");
+    }else if (thoigian <= 600){
+        tongtien=thoigian*1500;
+        document.write("Số tiền bạn phải trả là : " +tongtien+ "ngàn đồng");
+    }else if (thoigian <= 800){
+        tongtien=thoigian*1700;
+        document.write("Số tiền bạn phải trả là : " +tongtien+ "ngàn đồng");
+    }else if (thoigian <= 1000){
+        tongtien=thoigian*1900;
+        document.write("Số tiền bạn phải trả là : " +tongtien+ "ngàn đồng");
+    }else {
+        tongtien=thoigian*2100;
+        document.write("Số tiền bạn phải trả là : " +tongtien+ " ngàn đồng");
+    }
+</script>
+</body>
+</html>
