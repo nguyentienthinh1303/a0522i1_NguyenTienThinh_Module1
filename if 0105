@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>if 0105</title>
+</head>
+<body>
+<script>
+  let diemkiemtra = parseInt(prompt("Nhập điểm kiểm tra"));
+  let diemgiuaki  = parseInt(prompt("Nhập điểm giữa kì"));
+  let diemcuoiki = parseInt(prompt("Nhập điểm cuối kì"));
+  let tongket = (diemcuoiki*3 + diemgiuaki*2 + diemkiemtra)/6;
+  if(tongket < 3.5){
+    alert("Học sinh kém");
+  }
+  else if(tongket<5){
+    alert("Học sinh yếu");
+  }
+  else if(tongket<6.5){
+    alert("Học sinh trung bình")
+  }
+  else if(tongket <8){
+    alert("Học sinh khá");
+  }
+  else{
+    alert("Học sinh giỏi");
+  }
+</script>
+</body>
+</html>
