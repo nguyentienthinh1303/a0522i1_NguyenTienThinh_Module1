@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>if 0106</title>
+</head>
+<body>
+<script>
+  let doanhso = parseFloat(prompt("Nhập doanh số bán hàng"));
+  var  hoahong ;
+  if(doanhso < 10000){
+    hoahong = 0.01;
+  }
+  else if(doanhso<20000){
+    hoahong = 0.02;
+  }
+  else{
+    hoahong = 0.05;
+  }
+  var tienthuong = doanhso*hoahong;
+  alert("Số tiền thưởng : "+tienthuong);
+</script>
+</body>
+</html>
