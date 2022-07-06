@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>if 0203</title>
+</head>
+<body>
+<script>
+    let a= parseFloat(prompt("Nhập độ dài cạnh hình vuông"));
+    let s = a * a;
+    alert("Diện tích hình vuông : " + s);
+</script>
+</body>
+</html>
