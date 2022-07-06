@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>if 0209</title>
+</head>
+<body>
+<script>
+    let a= parseFloat(prompt("Nhập cạnh a"));
+    let b= parseFloat(prompt("Nhập cạnh b"));
+    let c= parseFloat(prompt("Nhập cạnh c"));
+    if ( a + b + c <= 0){
+        alert("Đó không phải hình tam giác");
+    }
+    else if ( a + b <= c ){
+        alert("Đó không phải hình tam giác");
+    }
+    else if ( b + c <= a){
+        alert("Đó không phải hình tam giác");
+    }
+    else if ( a + c <= b){
+        alert("Đó không phải hình tam giác");
+    }
+    else {
+        alert("Đó là hình tam giác");
+    }
+</script>
+</body>
+</html>
