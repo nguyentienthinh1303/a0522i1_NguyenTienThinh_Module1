@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>0205</title>
+</head>
+<body>
+<h1>Giải nghiệm phương trình ax^2 + bx + c = 0 </h1>
+<p>Nhập số a</p>
+<input type = "text" id="a" size="15"/>
+<p>Nhập số b</p>
+<input type = "text" id="b" size="15"/>
+<p>Nhập số c</p>
+<input type = "text" id="c" size="15"/>
+<button onclick="convert()">hiển thị</button>
+<p id="n"></p>
+<script>
+    function convert() {
+        let a = document.getElementById('a').value;
+        let b = document.getElementById('b').value;
+        let c = document.getElementById('c').value;
+        let message = "";
+        let delta = (b * b) - (4 * a * c);
+        if (delta < 0) {
+            message = "Phương trình vô nghiệm";
+        }
+        else if (delta === 0) {
+            let x = -b / (2 * a);
+                message="phương trình có 1 nghiệm duy nhất : " + x;
+            }
+        else if (delta > 0){
+            let x1 = (-b + Math.sqrt(delta))/2*a;
+            let x2 = (-b - Math.sqrt(delta))/2*a;
+            message="phương trình có 2 nghiệm : x1 = " + x1 + "; x2 = " + x2
+        }
+        document.getElementById("n").innerHTML = message;
+    }
+</script>
+</body>
+</html>
