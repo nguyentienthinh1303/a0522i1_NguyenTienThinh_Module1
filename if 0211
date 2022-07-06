@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>if 0211</title>
+</head>
+<body>
+<script>
+    let a= parseFloat(prompt("Nhập tiền lương 1 tháng (VNĐ)"));
+    while (a < 0){
+        a= parseFloat(prompt("Nhập lại tiền lương 1 tháng (VNĐ)"));
+    }
+    if (a < 5){
+        let x = a * 0.05;
+        alert("Tiền thuế: " + x + " VNĐ" );
+    }
+    else if (a < 10){
+        let y = a * 0.1;
+        alert("Tiền thuế: " + y + " VNĐ" );
+    }
+    else if (a < 18) {
+        let z = a * 0.15;
+        alert("Tiền thuế: " + z + " VNĐ");
+    }
+    else if (a < 32) {
+        let t = a * 0.2;
+        alert("Tiền thuế: " + t + " VNĐ");
+    }
+    else if (a < 52) {
+        let w = a * 0.25;
+        alert("Tiền thuế: " + w + " VNĐ");
+    }
+    else if (a < 80) {
+        let r = a * 0.3;
+        alert("Tiền thuế: " + r + " VNĐ");
+    }
+    else {
+        let e = a * 0.35;
+        alert("Tiền thuế: " + e + " VNĐ");
+    }
+</script>
+</body>
+</html>
