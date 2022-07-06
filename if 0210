@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>if 0210</title>
+</head>
+<body>
+<script>
+    let a= parseFloat(prompt("Nhập số lượng điện tiêu thụ (kWh)"));
+    while (a < 0){
+        a= parseFloat(prompt("Nhập lại số lượng điện tiêu thụ (kWh)"));
+    }
+    if (a < 50){
+        let x = a * 1678;
+        alert("Tièn điện: " + x + " VNĐ" );
+    }
+    else if (a < 100){
+        let y = a * 1734;
+        alert("Tièn điện: " + y + " VNĐ" );
+    }
+    else if (a < 200) {
+        let z = a * 2014;
+        alert("Tièn điện: " + z + " VNĐ");
+    }
+    else {
+        let t = a * 2536;
+        alert("Tièn điện: " + t + " VNĐ");
+    }
+</script>
+</body>
+</html>
