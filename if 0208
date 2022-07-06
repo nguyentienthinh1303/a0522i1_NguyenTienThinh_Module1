@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>if 0208</title>
+</head>
+<body>
+<script>
+  let a= parseFloat(prompt("Nhập tuổi"));
+  if (a < 0) {
+      alert("Đây không phải tuổi người");
+  }
+  else if (a > 120){
+      alert("Đây không phải tuổi người");
+  }
+  else {
+      alert("Đây là tuổi người");
+  }
+</script>
+</body>
+</html>
