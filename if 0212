@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>0205</title>
+</head>
+<body>
+<h1>TÍNH LÃI SUẤT NGÂN HÀNG</h1>
+<p>Số tiền ban đầu</p>
+<input type = "text" id="a" placeholder="$" size="15"/>
+<p>Số tháng cho vay</p>
+<input type = "text" id="b" size="15"/>
+<p>Lãi suất hàng tháng</p>
+<input type = "text" id="c" placeholder="%" size="15"/>
+<button onclick="convert()">hiển thị</button>
+<p id="x"></p>
+<script>
+    function convert() {
+        let a = document.getElementById('a').value;
+        let b = document.getElementById('b').value;
+        let c = document.getElementById('c').value;
+        let z = c / 100 + 1;
+        for (let i = 1; i <= b; i++) {
+            a = a * z;
+        }
+        let m = document.getElementById('a').value;
+        let a1 = a - m;
+        document.write("Lãi suất ngân hàng: " + a1 + "VNĐ");
+        document.getElementById("x").innerHTML = x
+    }
+</script>
+</body>
+</html>
