@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>V</title>
+</head>
+<body>
+<script>
+    let a = [parseFloat(prompt("Nhập số thứ 1")),
+        parseFloat(prompt("Nhập số thứ 2")),
+        parseFloat(prompt("Nhập số thứ 3")),
+        parseFloat(prompt("Nhập số thứ 4")),
+        parseFloat(prompt("Nhập số thứ 5")),
+        parseFloat(prompt("Nhập số thứ 6")),
+        parseFloat(prompt("Nhập số thứ 7")),
+        parseFloat(prompt("Nhập số thứ 8")),
+        parseFloat(prompt("Nhập số thứ 9")),
+        parseFloat(prompt("Nhập số thứ 10")),
+    ];
+    let int2 = parseInt(prompt("Nhập vào 1 số V bất kỳ"));
+    if (a.indexOf(int2) !== -1) {
+        document.write("V nằm trong mảng");
+    } else {
+        document.write("V không nằm trong mảng");
+    }
+</script>
+</body>
+</html>
