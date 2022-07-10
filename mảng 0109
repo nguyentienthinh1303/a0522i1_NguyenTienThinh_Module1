@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2 mảng</title>
+</head>
+<body>
+<script>
+    let a = [parseFloat(prompt("Nhập số thứ 1 mảng 1")),
+        parseFloat(prompt("Nhập số thứ 2 mảng 1")),
+        parseFloat(prompt("Nhập số thứ 3 mảng 1")),
+        parseFloat(prompt("Nhập số thứ 4 mảng 1")),
+        parseFloat(prompt("Nhập số thứ 5 mảng 1")),
+        parseFloat(prompt("Nhập số thứ 6 mảng 1")),
+        parseFloat(prompt("Nhập số thứ 7 mảng 1")),
+        parseFloat(prompt("Nhập số thứ 8 mảng 1")),
+        parseFloat(prompt("Nhập số thứ 9 mảng 1")),
+        parseFloat(prompt("Nhập số thứ 10 mảng 1")),
+    ]
+    let b = [parseFloat(prompt("Nhập số thứ 1 mảng 2")),
+        parseFloat(prompt("Nhập số thứ 2 mảng 2")),
+        parseFloat(prompt("Nhập số thứ 3 mảng 2")),
+        parseFloat(prompt("Nhập số thứ 4 mảng 2")),
+        parseFloat(prompt("Nhập số thứ 5 mảng 2")),
+        parseFloat(prompt("Nhập số thứ 6 mảng 2")),
+        parseFloat(prompt("Nhập số thứ 7 mảng 2")),
+        parseFloat(prompt("Nhập số thứ 8 mảng 2")),
+        parseFloat(prompt("Nhập số thứ 9 mảng 2")),
+        parseFloat(prompt("Nhập số thứ 10 mảng 2")),
+    ]
+    let c = [a.concat(b)];
+    document.write("Mảng C: " + c);
+</script>
+</body>
+</html>
