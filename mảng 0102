@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>số lớn nhất</title>
+</head>
+<body>
+<script>
+    let a = [parseFloat(prompt("Nhập số thứ 1")),
+        parseFloat(prompt("Nhập số thứ 2")),
+        parseFloat(prompt("Nhập số thứ 3")),
+        parseFloat(prompt("Nhập số thứ 4")),
+        parseFloat(prompt("Nhập số thứ 5")),
+        parseFloat(prompt("Nhập số thứ 6")),
+        parseFloat(prompt("Nhập số thứ 7")),
+        parseFloat(prompt("Nhập số thứ 8")),
+        parseFloat(prompt("Nhập số thứ 9")),
+        parseFloat(prompt("Nhập số thứ 10")),
+    ]
+    let max=a[0];
+    let indexMax=0;
+    for (let i=0;i<a.length;i++){
+        if (max<a[i]){
+            max=a[i];
+            indexMax=i;
+        }
+    }
+    document.write(a+"<br>");
+    document.write("Giá trị lớn nhất trong mảng là "+max+" nằm ở vị trí " + indexMax);
+</script>
+</body>
+</html>
