@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mảng 0205</title>
+</head>
+<body>
+<script>
+    let a = [parseFloat(prompt("Nhập ký tự thứ 1 mảng a")),
+        parseFloat(prompt("Nhập ký tự thứ 2 mảng a")),
+        parseFloat(prompt("Nhập ký tự thứ 3 mảng a")),
+    ]
+    let b = [parseFloat(prompt("Nhập ký tự thứ 1 mảng b")),
+        parseFloat(prompt("Nhập ký tự thứ 2 mảng b")),
+        parseFloat(prompt("Nhập ký tự thứ 3 mảng b")),
+    ]
+    let sameArr = JSON.stringify(a) === JSON.stringify(b);
+    if (sameArr == true) {
+        document.write("Mảng a giống mảng b");
+    } else {
+        document.write("Mảng a khác mảng b");
+    }
+</script>
+</body>
+</html>
