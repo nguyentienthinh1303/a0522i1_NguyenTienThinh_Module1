@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  let a =['1','2','3','a',"w"];
+  let count =0;
+  for(let i=0;i<a.length;i++){
+    if(isNaN(a[i])) count++;
+  }
+  document.write("arr =" + a + "<br>");
+  document.write("So ki tu co trong mang ="+count);
+</script>
+</body>
+</html>
