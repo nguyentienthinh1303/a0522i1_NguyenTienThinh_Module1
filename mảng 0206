@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mảng 0205</title>
+</head>
+<body>
+<script>
+  let a=[];
+  for(let i=1; i<=3;i++)
+    a[i]=prompt("nhap so thu "+i+" :");
+  for(let i=0; i<a.length;i++)
+  {
+    if(a[i]=="-")
+    {
+      a[i]="_";
+    }
+  }
+  document.write(a.toString());
+</script>
+</body>
+</html>
