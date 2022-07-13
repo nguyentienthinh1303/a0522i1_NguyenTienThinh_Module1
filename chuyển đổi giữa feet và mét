@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi giữa feet và mét</title>
+</head>
+<body>
+<script>
+    metersToFeet(parseInt(prompt("Nhập mét")));
+    feetsToMeters(parseInt(prompt("Nhập feet")));
+        document.write("Mét = " + m +"<br>");
+        document.write("Feet = " + ft + "<br>");
+    function metersToFeet(m) {
+        let mét =  m * 3.279;
+        document.write("Mét = " + mét + "<br>");
+    }
+    function feetsToMeters(ft) {
+        let feet = ft * 0.305 ;
+        document.write("Feet = " + feet + "<br>");
+    }
+</script>
+</body>
+</html>
