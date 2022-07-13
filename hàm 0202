@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>hàm 0102</title>
+</head>
+<body>
+<script>
+  function myVal(val) {
+    val++;
+    document.writeln("Giá trị trả lại" +val);
+  }
+  let val=parseInt(prompt("Nhập vào 1 đối số"));
+  myVal(val);
+</script>
+</body>
+</html>
