@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hàm 0103</title>
+</head>
+<body>
+<script>
+  function para(a,b) {
+    if (a>b){
+      document.write("Giá trị 1 lớn hơn giá trị 2");
+    } else if (a<=b){
+      document.write("Tổng 2 số là " +(a+b));
+    }
+  }
+  let a=parseInt(prompt("Nhập vào giá trị 1"));
+  let b=parseInt(prompt("Nhập vào giá trị 2"));
+  para(a,b);
+</script>
+</body>
+</html>
