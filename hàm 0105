@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hàm 0105</title>
+</head>
+<body>
+<script>
+  let a = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus'];
+  let b = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo'];
+  function search(c) {
+    for (let i = 1; i <= a.length; i++) {
+      if (c === a[i]) {
+        return document.write(b[i]);
+      }
+    }
+    return document.write("Không tìm thấy");
+  }
+  let c = prompt("Nhập vào tên ngôi sao");
+  search(c);
+</script>
+</body>
+</html>
