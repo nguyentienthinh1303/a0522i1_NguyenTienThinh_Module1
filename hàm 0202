@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hàm 0202</title>
+</head>
+<body>
+<script>
+    function perimeter(r) {
+        document.write("Chu vi là " + r * 2 * 3.14159265 + '<br>');
+        document.write("Diện tích là " + r * r * 3.14159265 + '<br>');
+    }
+    let r=parseInt(prompt("Nhập bán kính "));
+    perimeter(r);
+</script>
+</body>
+</html>
