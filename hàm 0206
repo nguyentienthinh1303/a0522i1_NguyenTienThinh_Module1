@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  let n = prompt("Nhập số ");
+
+  function checkNumber() {
+    if (n >= 0) {
+      document.write("True");
+    } else {
+      document.write("false");
+    }
+  }
+
+  checkNumber()
+</script>
+</body>
+</html>
