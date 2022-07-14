@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hàm 0201</title>
+</head>
+<body>
+<script>
+  function square(a) {
+    document.write("Kết quả: "+(a*a));
+  }
+  let a=parseInt(prompt("Nhập vào số cần bình phương"));
+  square(a);
+</script>
+</body>
+</html>
