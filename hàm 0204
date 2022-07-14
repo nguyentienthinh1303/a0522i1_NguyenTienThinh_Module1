@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hàm 0104</title>
+</head>
+<body>
+<script>
+    function test(x) {
+        if (x == parseInt(x)) {
+            document.write("True");
+        } else {
+            document.write("False");
+        }
+    }
+    let x=prompt("Nhập ký tự bất kỳ");
+    test(x);
+</script>
+</body>
+</html>
