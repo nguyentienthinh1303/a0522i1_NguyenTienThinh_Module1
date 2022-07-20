@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mô tả hình chữ nhật</title>
+</head>
+<body>
+<canvas id="myRectangle" width="1000px" height="600px" style="border: 1px solid #000000">
+</canvas>
+<br>
+<script>
+  class Rectangle {
+    constructor(width, length) {
+      this.width = width;
+      this.length = length;
+    }
+
+    Area() {
+      return this.length * this.width;
+    }
+
+    Perimeter() {
+      return (this.length + this.width) * 2;
+    }
+
+    CreateRectangle() {
+      let ctx = document.getElementById("myRectangle").getContext("2d");
+      ctx.beginPath();
+      ctx.fillStyle = "#000000";
+      ctx.fillRect(20, 30, this.length, this.width);
+    }
+  }
+  let rec1 = new Rectangle(parseInt(prompt("Nhập chiều dài: ")),parseInt(prompt("Nhập chiều rộng:")));
+  document.write("Diện tích hình chữ nhật : " + rec1.Area()+"<br>");
+  document.write("Chu vi hình chữ nhật : " + rec1.Perimeter());
+  rec1.CreateRectangle();
+</script>
+</body>
+</html>
