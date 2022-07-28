@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case study I/3</title>
+</head>
+<body>
+<script>
+    let rs ="";
+    let m = 4;
+    let n = 6;
+    for(let i=0;i<5;i++){
+        for(let j=1;j<=9;j++){
+            if(j<=m){
+                rs+="&nbsp&nbsp";
+            }
+            else if(j>=n){
+                rs+="&nbsp&nbsp";
+            }
+            else{
+                rs +="*";
+            }
+        }
+        rs+="<br>"
+        m--;
+        n++;
+    }
+    rs+="<br>"
+    document.write(rs)
+</script>
+</body>
+</html>
