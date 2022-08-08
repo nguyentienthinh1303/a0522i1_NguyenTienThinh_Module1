@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case study II/1</title>
+</head>
+<body>
+<script>
+    let a = prompt("Nhập số tiền lương hàng tháng (VNĐ)");
+    if (a<7000000){
+        alert("Tiền lương sau thuế: " + a*19/20);
+    }
+    if (7000000<=a && a<=15000000){
+        alert("Tiền lương sau thuế: " + a*9/10);
+    }
+    if (a>15000000){
+        alert("Tiền lương sau thuế: " + a*4/5);
+    }
+</script>
+</body>
+</html>
