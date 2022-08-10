@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chuyển đổi nhiệt độ</title>
+</head>
+<body>
+<script>
+let C=prompt("Nhập độ C");
+while (C<-273){
+    C=prompt("Nhập lại độ C");
+}
+alert("Độ K: " + (C*9/5 + 32))
+</script>
+</body>
+</html>
